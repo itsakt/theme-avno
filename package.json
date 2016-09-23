@@ -1,0 +1,26 @@
+{
+    "name": "theme-nova",
+    "displayName": "Nova Color Theme",
+    "description": "Nova (http://www.trevordmiller.com/nova/) inspired color theme for VS Code",
+    "version": "0.1.0",
+    "publisher": "itsakt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itsakt/theme-nova.git"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nova Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nova.tmTheme"
+            }
+        ]
+    }
+}
